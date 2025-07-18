@@ -12,10 +12,10 @@ This folder contains all input and output data related to the multilayer network
 
 
 data/
-├── [network_1]/
-│   └── network.edgeslist
-├── [network_2]/
-│   └── network.edgeslist
+├── [network_1]/\n
+│   └── network.edgeslist\n
+├── [network_2]/\n
+│   └── network.edgeslist\n
 │	└── Network/              # Auto-generated output folder
 │	   └── [timestamp]/       # e.g., 2025_07_18_14
 │	       ├── [network]_graph temp.csv
