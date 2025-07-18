@@ -18,7 +18,7 @@ data/
 
 ├── [network_2]/
 
-│           └── network.edgeslist
+│     └── network.edgeslist
 
 │    	└── Network/              # Auto-generated output folder
 
@@ -49,28 +49,35 @@ Upon running the notebook (Extract Network Nodes and Layers Features/Multilayer_
 1. [Network_Name]_graph temp.csv
 
   Purpose: Temporary cache of node features and SIR values.
+  
   Reason: Avoids recomputation if the process is interrupted due to heavy processing.
+  
   Usage: Loaded during reruns if available.
 
 2. [Network_Name]_layers.csv
 
   Purpose: Matrix of extracted layer features.
+  
   Format: First column = layer ID; other columns = layer-level features.
 
 3. [Network_Name]_beta=..._landa=..._epoch=... temp SIR.csv
 
   Purpose: Temporary cache of SIR simulation results
+  
   Usage: Accelerates re-execution by skipping recomputation.
 
 4. [Network_Name]_fn=... graph.csv
 
   Purpose: Final processed node features and SIR values.
+  
   Status: Considered as the validated/canonical output.
+  
   Usage: If this file exists and can be read, it is loaded directly in subsequent runs.
 
 5. [Network_Name]_fn=..._beta=..._landa=..._epoch=....csv
 
   Purpose: Final output of the SIR diffusion simulation.
+  
   Usage: Loaded instead of re-running the simulation.
 
 
