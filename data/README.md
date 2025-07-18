@@ -24,8 +24,8 @@ data/
 │	       ├── [network]_fn=... graph.csv
 │	       └── [network]_fn=..._beta=0.01_landa=0.7_epoch=1000.csv
 
+---
 ## Files Description
-
 
 Each subfolder under data/ (e.g., data/Facebook/) contains one or more edgelist files used as the source for network construction.
 
