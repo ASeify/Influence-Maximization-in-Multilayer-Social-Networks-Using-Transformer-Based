@@ -59,7 +59,7 @@ Run cells to perform z‑score and IQR‑based outlier detection, with visualiza
 
 ## Dependencies
 
-All major libraries are listed in requirements.txt and environment.yml. Key packages:
+All major libraries are listed in requirements and environment. Key packages:
 
 pandas
 
