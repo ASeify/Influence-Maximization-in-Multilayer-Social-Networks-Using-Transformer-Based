@@ -55,6 +55,8 @@ Open notebooks/Outlier_Detection.ipynb.
 
 Run cells to perform z‑score and IQR‑based outlier detection, with visualizations.
 
+---
+
 ## Dependencies
 
 All major libraries are listed in requirements.txt and environment.yml. Key packages:
