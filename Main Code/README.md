@@ -135,7 +135,7 @@ All output files are human-readable and organized under your network’s data fo
 
 ## Contact & License
 
-- **Author**: Ali Seyfi (<ali.seyfi.n@gmail.com>)  
+- **Author**: Ali Seyfi (ali.seyfi.n@gmail.com)  
 - **License**: MIT
 
 Contributions and issue reports are welcome—feel free to open a GitHub issue or pull request!
