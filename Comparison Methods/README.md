@@ -1,7 +1,3 @@
-**README for **``
-
----
-
 ## Overview
 
 This Jupyter Notebook provides a framework to **compare the performance** of multiple network influence and robustness methods on your graph data. It loads a single edgelist input, computes seeds or rankings via several methods, simulates diffusion (SIR) to evaluate robustness, and visualizes results side-by-side.
